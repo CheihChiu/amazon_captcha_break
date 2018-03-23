@@ -15,7 +15,7 @@ from PIL import Image
 
 import requests
 from io import BytesIO
-from .model import cnn_captcha_break, mnist
+from .model import cnn_captcha_break
 from .. import app
 
 logger = logging.getLogger('general')
